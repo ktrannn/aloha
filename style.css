@@ -245,9 +245,10 @@ table {
   align-items: center;
   font-family:'Raleway';
   font-weight:bold;
-  font-size:2.5rem;
+  font-size:2rem;
   color:white;
-  height: 20rem;
+  height: 12.5rem;
+  text-transform: uppercase;
   
   /* width:auto;
   height: auto; */
@@ -259,7 +260,6 @@ background:
 linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
 url("images/mens-category.jpg")center;
 flex-basis:49%;
-/* height:20rem; */
 border-right: 8px solid white;
 }
 
@@ -324,25 +324,31 @@ color:#969696;
 
 .header{
   text-align:center;
-  font-family:'Fairplay Display';
+  font-family:'Playfair Display';
   font-size:2.5rem;
   color:#2d2d2d;
   text-shadow: 1rem 1rem 2rem rgba(100, 100, 100, 0.8);
-  width:auto;
   padding-top: 5rem;
   font-style:italic;
-  
-  
 }
+  
+.heavy{
+    font-family:'Playfair Display';
+    font-style:normal;
+    font-weight:bold;   
+}
+
 .header-info{
-  display:flex; 
-  justify-content: center; 
+  display:block; 
+  text-align: center;
+  justify-content: center;
   padding-top:3rem;
   padding-bottom:3rem;
   font-family:'Raleway';
-  font-size:1.0rem;
+  font-size:1.10rem;
   color:#2d2d2d;
   text-shadow: 1rem 1rem 2rem rgba(100, 100, 100, 0.8);
+  font-weight: lighter;
 }
 
 /* FOOTER */
@@ -351,8 +357,9 @@ footer{
   justify-content: space-between;
   background-color:rgb(37, 37, 37);
   margin-top: 0.5%;
-  padding-top: 2.8rem;
-}
+  padding-top: 2.8rem; 
+} 
+
 
 .contact-info{
   line-height: 2rem;
@@ -366,6 +373,15 @@ footer{
   font-family:'Raleway';
   text-transform: uppercase;
 }
+
+.social-text{
+  visibility:visible;
+  font-family:"raleway", sans-serif;
+  color:white;
+  font-weight:lighter;
+  padding-left:1rem;
+  text-decoration:none;
+  }
 
 .address{
   color:#969696;
@@ -402,39 +418,52 @@ footer{
 }
 
 .sign-up-title{
-  text-align:center;
   padding-top:1rem;
   font-family:'Fairplay Display';
   font-size:1.5rem;
   color:white;
   text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
   width:auto;
+  font-style: italic;
 }
 
 .sign-up-info{
-  text-align:center;
   padding-top:1rem;
   font-family:'Raleway';
   font-size:1.0rem;
   color:white;
   text-shadow: 1rem 1rem 2rem rgba(100, 100, 100, 0.8);
   width:auto;
+  font-weight:lighter;
 }
 
 
-/* .email-form{
-display:flex;
-} */
-.email{
-  background-color:white;
-  border-radius:50em;
-  border:0;
-  font-size:1.5rem;
-  width:50vw;
+
+.email-form{
+  padding-top: 10px;
 }
 
+input[type="email"], input[type="submit"] {    
+  border-radius: 25px;
+  border: 0;
+   }
+input[type="email"]{
+ width: 80%;
+ max-width:400px;
+ height: 2.5rem;
+ padding-left: 1rem;
+ font-size:1rem;
+ font-family:"raleway",sans-serif;
+ font-weight:bold;
+ text-align: center;
+ color:#969696;
+ }
 
 .email-button{
+  padding-right: 10px;
+  padding-bottom: 10px;
+  height:2.5rem;
+  margin-left: -125px;
 	background-color: #e2574c;
 	border-radius: 50em;
 	color: #fff;
@@ -448,8 +477,15 @@ display:flex;
 /* MEDIA */
 
 @media screen and (max-width : 600px){
+font-size:14px;
+
+body{
+  font-size:1.0rem;
+}
 .box{
     height:200px;
+    text-transform: uppercase;
+    font-size:1.0rem;
   }
 .mens{
   flex-basis:100%;
@@ -480,26 +516,42 @@ display:flex;
     font-size:2rem;
   }
 
+.sign-up-info{
+  font-size:14px;
+  /* max-width: 655px; */
+}
+
+.header-info{
+  font-size:14px;
+}
+
 footer{
   display:flex;
-  flex-wrap:wrap;
-  align-items:center;
-  /* justify-content: flex-end; */
-}
-
-
-
-
-
-
-}
-
-@media screen and (max-width : 1240px){
-  .box {
-    height:12.5rem;
+  justify-content:space-between;
+  flex-direction:row;
   }
 
+.contact-info{
+  text-align:left;
+  padding-left:3.5rem;
+  padding-bottom:3rem;
+  }
+
+.social-icons{
+  text-align:left;
+  }
+  
+/* .social-text{
+  visibility: hidden;
+} */
+
+
+@media screen and (max-width : 1240px){
+
+  .box {
+    height:12.5rem;
 }
+
 
 
 
