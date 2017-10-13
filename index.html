@@ -4,13 +4,15 @@
 <head>
   <meta charset="utf-8">
   <title id="title">Aloha Apparel</title>
-  <link rel="stylesheet" type="text/css" href="/Users/MacbookPro/Documents/projects/project-01/style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://use.fontawesome.com/51000e27a8.css" media="all" rel="stylesheet">
   <script src="https://use.fontawesome.com/51000e27a8.js"></script>
   <link href="https://use.fontawesome.com/51000e27a8.css" media="all" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="styles.css" rel="stylesheet" media="all and (max-width: 600px)">
-  
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <link rel="stylesheet" href="flickity.min.css" media="screen">
 </head>
 <header class="header-container">
   <div class="logo">
@@ -22,22 +24,19 @@
   <div class="nav-bar">
     <ul class="nav-list">
       <li>
-        <a href="#">about</a>
+        <a href="#about">about</a>
       </li>
       <li>
-        <a href="#">shop</a>
+        <a href="#shop">shop</a>
       </li>
       <li>
-        <a href="#">featured</a>
+        <a href="#featured">featured</a>
       </li>
       <li>
-        <a href="#">updates</a>
+        <a href="#updates">updates</a>
       </li>
     </ul>
   </div>
-  <!-- <div class="shopping-cart">
-    <img src="images/cart-icon.svg" alt="shopping cart" class="shopping-cart">
-  </div> -->
 </header>
 
 
@@ -46,54 +45,88 @@
   <p class="spring">Spring/Summer 2016 </p>
 </div>
 
-<section>
-  <h2 class="header">Hand-Crafted 
-    <span class="heavy">Styles</span></h2>
-  <p class="header-info">Aloha Apparel Co. sells only the finest ready-to-travel clothing. 
-    
-    Browse our current selection of products or sign-up for
+<section id="about">
+  <h2 class="header">Hand-Crafted
+    <span class="heavy">Styles</span>
+  </h2>
+  <p class="header-info" id="shop">Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for
     updates below</p>
 </section>
 
-<section>
-  <div class="category-wrapper">
-    <div class="category-list">
-      <div class="mens box">men's</div>
-      <div class="trends box">trends</div>
-      <div class="glasses box">glasses</div>
-      <div class="sale box">sale</div>
-      <div class="bags box">bags</div>
-      <div class="womens box">women's</div>
-    </div>
-  </div>
+<div class="category-list">
+  <div class="mens box">men's</div>
+  <div class="trends box">trends</div>
+  <div class="glasses box">glasses</div>
+  <div class="sale box">sale</div>
+  <div class="bags box">bags</div>
+  <div class="womens box">women's</div>
+</div>
+
+<section id="featured">
+  <h3 class="header">Most-Loved
+    <span class="heavy">Prodcts</span>
+  </h3>
+  <ul class="main-carousel">
+    <li class="carousel-cell">
+      <img class="carousel-image" src="images/cotton-yellow-tshirt.jpg" alt="Cotton Yellow Shirt" class="item">
+      <p class="clothing-category">Shirts</p>
+      <p class="item-name">Cotton Yellow T-Shirt</p>
+      <p class="price"> $30</p>
+    </li>
+    <li class="carousel-cell">
+      <img class="carousel-image" src="images/cotton-blue-shirt.jpg" alt="Cotton Blue Shirt" class="item">
+      <p class="clothing-category">Shirts</p>
+      <p class="item-name">Cotton Blue Shirt</p>
+      <p class="price"> $30</p>
+    </li>
+    <li class="carousel-cell">
+      <img class="carousel-image" src="images/demin-overall-shorts.jpg" alt="Demin Overall" class="item">
+      <p class="clothing-category">Shorts</p>
+      <p class="item-name">Denim Overall Shorts</p>
+      <p class="price"> $30</p>
+    </li>
+    <li class="carousel-cell">
+      <img class="carousel-image" src="images/blue-hipster-backpack.jpg" alt="Blue Hipster Backpack" class="item">
+      <p class="clothing-category">Bags</p>
+      <p class="item-name">Blue Hipster Backpack</p>
+      <p class="price">$45</p>
+    </li>
+    <li class="carousel-cell">
+      <img class="carousel-image" src="images/blue-silk-dress.jpg" alt="Blue Silk Dress" class="item">
+      <p class="clothing-category">Dresses</p>
+      <p class="item-name">Blue Silk Dress</p>
+      <p class="price">$80</p>
+    </li>
+    <li class="carousel-cell">
+      <img class="carousel-image" src="images/pink-dotted-dress.jpg" alt="Pink Dotted Dress" class="item">
+      <p class="clothing-category">Dresses</p>
+      <p class="item-name">Pink Dotted Dress</p>
+      <p class="price">$60</p>
+    </li>
+    <li class="carousel-cell">
+      <img class="carousel-image" src="images/stretch-knit-dress.jpg" alt="Stretch Knit Dress" class="item">
+      <p class="clothing-category">Dresses</p>
+      <p class="item-name">Stretch Knit Dress</p>
+      <p class="price">$60</p>
+    </li>
+    <li class="carousel-cell">
+      <img class="carousel-image" src="images/checked-stretch-dress.jpg" alt="Checked Stretch Dress" class="item">
+      <p class="clothing-category">Dresses</p>
+      <p class="item-name">Checked Stretch Dress</p>
+      <p class="price">$60</p>
+    </li>
+
+
+  </ul>
 </section>
-<div class="header">Most-Loved 
-  <span class="heavy">Prodcts</span></div>
-<ul class="items">
-  <li> <img src="images/cotton-yellow-tshirt.jpg" alt="Cotton Yellow Shirt" class="item">
-    <p class="itemname">Cotton Yellow T-Shirt</p>
-    <p class="price"> $30</p>
-  </li>
-  <li> <img src="images/blue-hipster-backpack.jpg" alt="Blue Hipster Backpack" class="item">
-    <p class="itemname">Blue Hipster Backpack</p>
-    <p class="price">$45</p>
-  </li>
-  <li> <img src="images/blue-silk-dress.jpg" alt="Blue Silk Dress" class="item">
-    <p class="itemname">Blue Silk Dress</p>
-    <p class="price">$80</p>
-  </li>
-  <li> <img src="images/pink-dotted-dress.jpg" alt="Pink Dotted Dress" class="item">
-    <p class="itemname">Pink Dotted Dress</p>
-    <p class="price">$60</p>
-  </li>
-</ul>
-<div class="ocean-image">
+<div class="ocean-image" id="updates">
   <h3 class="sign-up-title"> Sign-up for
     <span class="heavy">Updates</span>
   </h3>
 
   <div class="sign-up-info">
-    <p>Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
+    <p>Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from
+      our blog. Unsubscribe at any time.</p>
   </div>
   <form class="email-form">
     <input type="email" name="email" class="email" value="Your Email" />
@@ -105,8 +138,8 @@
     <p>Powered By HTML and CSS</p>
     <p>2017 Aloha Apparel Co</p>
     <p>604-604-6040
-      <a href="#">
-            <span class="contact-email">info@alohaapparel.com</span>
+      <a href="#" style="text-decoration:none">
+        <span class="contact-email">info@alohaapparel.com</span>
       </a>
     </p>
     <p class="address">1490 W Broadway</p>
@@ -114,19 +147,32 @@
   </div>
   <div class="social-list">
     <ul class="social-icons">
-      <li> <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
-        <a href="#" class="social-text">facebook</a></li>
-      <li><i class="fa fa-pinterest-square fa-2x" aria-hidden="true"></i>
-        <a href="#" class="social-text">pinterest</a></li>
-      <li><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
-        <a href="#" class="social-text">twitter</a></li>
-      <li><i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
-        <a href="#" class="social-text">instagram</a></li>
-      <li><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i>
-        <a href="#" class="social-text">google+</a></li>
+      <li>
+        <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+        <a href="#" class="social-text">facebook</a>
+      </li>
+      <li>
+        <i class="fa fa-pinterest-square fa-2x" aria-hidden="true"></i>
+        <a href="#" class="social-text">pinterest</a>
+      </li>
+      <li>
+        <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+        <a href="#" class="social-text">twitter</a>
+      </li>
+      <li>
+        <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+        <a href="#" class="social-text">instagram</a>
+      </li>
+      <li>
+        <i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i>
+        <a href="#" class="social-text">google+</a>
+      </li>
     </ul>
   </div>
 </footer>
+
+<script src="script.js"></script>
+<script src="flickity.pkgd.min.js"></script>
 </body>
 
 </html>

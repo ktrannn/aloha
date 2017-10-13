@@ -142,8 +142,10 @@ table {
 .header-container{
   display:flex;
   width:100%;
-  flex-wrap:wrap;
+  z-index: 99999;
   justify-content: space-between;
+  align-content: center;
+  align-items: center;
   position: fixed;
   background-color: white;
 }
@@ -151,24 +153,34 @@ table {
 .logo{
   display:flex; 
   justify-content: flex-start;
-  width:10rem;
-  height:3rem;
+  flex: 1 1 15%;
+  order: 1;
+}
+
+.logo img {
+  max-width: 100%;
+  height:5rem;
 }
 
 .shopping-cart{
-  display:inline-block;
+  display:flex;
   align-self:flex-end;
-  width:3.5rem;
-  
+  flex: 1 1 15%;
+  order: 3;
+  height:5rem;
+}
+
+.shopping-cart img{
+  /* max-width:100%; */
+  padding-left:80px;
 }
 /* end */
 
 /* NAV */
 .nav-bar{
-  width:96%;
-  margin: 1rem 0 0.5rem 0;
-  border-top: 1px solid #d7d7d7;
-  margin:0 auto;
+  order: 2;
+  flex: 1 1 70%;
+  
   }
 
 .nav-list {
@@ -250,8 +262,6 @@ table {
   height: 12.5rem;
   text-transform: uppercase;
   
-  /* width:auto;
-  height: auto; */
 }
 
 
@@ -307,7 +317,7 @@ border-right: 8px solid white;
   /* height: 20rem; */
 }
 
-  /* IMAGES OF ITEMS AND PRICE */
+  /* CAROUSEL */
  li {
     list-style-type: none;
 }
@@ -316,9 +326,33 @@ font-family:'Raleway';
 color:#969696;
 }
 
-.itemname{
+
+.clothing-category{
+  font-family:'Raleway';
+}
+
+.item-name{
   color:#e2574c;
 }
+
+.main-carousel{
+  padding-bottom: 50px;
+  
+}
+
+.carousel-cell {
+  text-align: center;
+  /* width: 25%; */
+}
+
+.carousel-cell p{
+  padding:10px;
+}
+
+.carousel-image{
+  padding-top:5rem;
+}
+
 
 /* HEADERS */
 
@@ -374,6 +408,10 @@ footer{
   text-transform: uppercase;
 }
 
+.social-icons a:hover{
+color:#b64036;
+}
+
 .social-text{
   visibility:visible;
   font-family:"raleway", sans-serif;
@@ -390,6 +428,7 @@ footer{
 
 .contact-email {
   color:white;
+  text-decoration: none;
 }
 
 /* END OF FOOTER */
@@ -413,7 +452,8 @@ footer{
   linear-gradient( to bottom, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.05) 100% ),
   url("images/wave-bkgd.jpg");
   background-position: bottom;
-  display: inline-block;
+  background-repeat: no-repeat;
+
  text-align: center;
 }
 
@@ -455,7 +495,6 @@ input[type="email"]{
  font-size:1rem;
  font-family:"raleway",sans-serif;
  font-weight:bold;
- text-align: center;
  color:#969696;
  }
 
@@ -477,7 +516,25 @@ input[type="email"]{
 /* MEDIA */
 
 @media screen and (max-width : 600px){
-font-size:14px;
+
+.header-container{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+  .logo {
+    order: 1;
+  }
+
+  .nav-bar {
+    order: 3;
+    border-top: 1px solid #2d2d2d;
+  }
+
+  .shopping-cart {
+    order: 2;
+  }
+
 
 body{
   font-size:1.0rem;
@@ -490,6 +547,7 @@ body{
 .mens{
   flex-basis:100%;
   border-bottom:4px solid white;
+  border-right-width: 0px;
 }
 .womens{
   flex-basis:100%;
@@ -499,6 +557,7 @@ body{
   flex-basis:49%;
   border-top:4px solid white;
   border-right: 4px solid white;
+  border-right-width: 0px;
 }
 .sale{
   flex-basis:49%;
@@ -516,9 +575,15 @@ body{
     font-size:2rem;
   }
 
+/* CAROUSEL  */
+
+
+.carousel-image{
+  width:100%;
+}
+
 .sign-up-info{
   font-size:14px;
-  /* max-width: 655px; */
 }
 
 .header-info{
@@ -531,28 +596,41 @@ footer{
   flex-direction:row;
   }
 
+
+.email-form{
+  padding-top: 30px;
+}
+
+input[type="email"]{
+  text-align:left;
+}
+
+
+
 .contact-info{
   text-align:left;
-  padding-left:3.5rem;
-  padding-bottom:3rem;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-bottom: 0px;
   }
 
 .social-icons{
   text-align:left;
   }
   
-/* .social-text{
-  visibility: hidden;
-} */
+}
 
-
-@media screen and (max-width : 1240px){
+@media screen and (max-width: 1240px){
 
   .box {
     height:12.5rem;
+  }
+
+
+  .carousel-cell {
+    width: 50%;
+  }
+
+
+
 }
-
-
-
-
-
