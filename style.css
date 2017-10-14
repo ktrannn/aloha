@@ -138,9 +138,10 @@ table {
 }
 /* END OF FONTS */
 
-/* ALOHA LOGO  AND SHOPPING CART*/
+/* MAIN HEADER */
 .header-container{
   display:flex;
+  flex-wrap:wrap;
   width:100%;
   z-index: 99999;
   justify-content: space-between;
@@ -148,6 +149,7 @@ table {
   align-items: center;
   position: fixed;
   background-color: white;
+  padding-top:20px;
 }
 
 .logo{
@@ -159,26 +161,28 @@ table {
 
 .logo img {
   max-width: 100%;
-  height:5rem;
+  height:4rem;
+  padding-left:30px;
+  padding-bottom:10px;
 }
 
 .shopping-cart{
   display:flex;
   align-self:flex-end;
   flex: 1 1 15%;
-  order: 3;
-  height:5rem;
+  order: 2;
+  height:4rem;
 }
 
 .shopping-cart img{
-  /* max-width:100%; */
-  padding-left:80px;
+  padding-left:60px;
+  padding-bottom: 10px;
 }
-/* end */
+/* MAIN HEADER END */
 
-/* NAV */
+/* NAV-BAR*/
 .nav-bar{
-  order: 2;
+  order: 3;
   flex: 1 1 70%;
   
   }
@@ -189,6 +193,7 @@ table {
   width:370px;
   margin:0 auto;
   padding:.8rem 0rem;
+  border-top:2px solid #2d2d2d;
   }
   
 .nav-bar a {
@@ -217,7 +222,7 @@ table {
     }
     
   .hero {
-      height:745px;
+      height:645px;
       width:100%;
       text-align: center;
       background:
@@ -230,7 +235,7 @@ table {
       text-align:center;
       padding-top:1rem;
       font-family:'Playfair Display';
-      font-size:4rem;
+      font-size:3.5rem;
       color:white;
       text-shadow: 1rem 1rem 2rem rgba(100, 100, 100, 0.8);
       width:auto;
@@ -238,16 +243,12 @@ table {
       }
 /* END OF HERO BANNER SECTION */
 
-
-  /*  CATEGORIES */
-
-
+/*  CATEGORIES LIST */
 
 .category-list{
   display:flex;
   flex-wrap:wrap;
   justify-content: center;
-  /* align-self: center; */
    
     
 }
@@ -262,6 +263,7 @@ table {
   height: 12.5rem;
   text-transform: uppercase;
   
+  
 }
 
 
@@ -269,16 +271,21 @@ table {
 background:
 linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
 url("images/mens-category.jpg")center;
-flex-basis:49%;
-border-right: 8px solid white;
+background-position: center, center;
+background-size: cover, cover;
+flex-basis:100%;
+border-bottom:8px solid white;
 }
 
 .trends{
-  flex-basis:24%;
+  flex-basis:49%;
   background:
   linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
   url("images/trends-category.jpg")center;
+  background-position: center, center;
+  background-size: cover, cover;
   border-right:8px solid white;
+  
 
 }
 
@@ -286,7 +293,9 @@ border-right: 8px solid white;
   background:
   linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
   url("images/glasses-category.jpg")center;
- flex-basis:24%;
+  background-position: center, center;
+  background-size: cover, cover;
+ flex-basis:49%;
  
 }
 
@@ -294,7 +303,9 @@ border-right: 8px solid white;
   background:
   linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
   url("images/sale-category.jpg")center;
-  flex-basis: 24%;
+  background-position: center, center;
+  background-size: cover, cover;
+  flex-basis: 49%;
   border-top:8px solid white;
   border-right: 8px solid white;
 }
@@ -303,24 +314,29 @@ border-right: 8px solid white;
   background:
   linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
   url("images/bags-category.jpg")center;
- flex-basis:24%;
+  background-position: center, center;
+  background-size: cover, cover;
+ flex-basis:49%;
  border-top:8px solid white;
- border-right: 8px solid white;
 }
 
 .womens{
   background:
   linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
   url("images/womens-category.jpg")center;
-  flex-basis:49%;
+  background-position: center, center;
+  background-size: cover, cover;
+  flex-basis:100%;
   border-top:8px solid white;
-  /* height: 20rem; */
 }
+/* CATEGORIES LIST END */
 
-  /* CAROUSEL */
- li {
+/* CAROUSEL */
+ 
+li {
     list-style-type: none;
 }
+
 .price {
 font-family:'Raleway'; 
 color:#969696;
@@ -342,7 +358,7 @@ color:#969696;
 
 .carousel-cell {
   text-align: center;
-  /* width: 25%; */
+  width:100%;
 }
 
 .carousel-cell p{
@@ -354,14 +370,13 @@ color:#969696;
 }
 
 
-/* HEADERS */
+/* HAND CRAFTED STYLES HEADER */
 
 .header{
   text-align:center;
   font-family:'Playfair Display';
   font-size:2.5rem;
   color:#2d2d2d;
-  text-shadow: 1rem 1rem 2rem rgba(100, 100, 100, 0.8);
   padding-top: 5rem;
   font-style:italic;
 }
@@ -381,65 +396,12 @@ color:#969696;
   font-family:'Raleway';
   font-size:1.10rem;
   color:#2d2d2d;
-  text-shadow: 1rem 1rem 2rem rgba(100, 100, 100, 0.8);
   font-weight: lighter;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 40px;
 }
-
-/* FOOTER */
-footer{
-  display:flex;
-  justify-content: space-between;
-  background-color:rgb(37, 37, 37);
-  margin-top: 0.5%;
-  padding-top: 2.8rem; 
-} 
-
-
-.contact-info{
-  line-height: 2rem;
-  font-family:'Raleway';
-  color:white;
-  flex-direction: column;
-}
-
-.social-icons li{
-  padding:0.25rem;
-  font-family:'Raleway';
-  text-transform: uppercase;
-}
-
-.social-icons a:hover{
-color:#b64036;
-}
-
-.social-text{
-  visibility:visible;
-  font-family:"raleway", sans-serif;
-  color:white;
-  font-weight:lighter;
-  padding-left:1rem;
-  text-decoration:none;
-  }
-
-.address{
-  color:#969696;
-  font-family:'Raleway';
-}
-
-.contact-email {
-  color:white;
-  text-decoration: none;
-}
-
-/* END OF FOOTER */
-
-
-.body{
-  color:#2d2d2d;
-  font-family:'Raleway'
-}
-
-
+ /* END OF HAND CRAFTED STYLES HEADER */
 
 /* OCEAN IMAGE SECTION */
 .ocean-image{
@@ -475,9 +437,11 @@ color:#b64036;
   text-shadow: 1rem 1rem 2rem rgba(100, 100, 100, 0.8);
   width:auto;
   font-weight:lighter;
+  padding-left: 50px;
+  padding-right: 50px;
+  line-height: 2rem;
+
 }
-
-
 
 .email-form{
   padding-top: 10px;
@@ -513,124 +477,286 @@ input[type="email"]{
 /* END OF OCEAN SECTION */
 
 
-/* MEDIA */
 
-@media screen and (max-width : 600px){
-
-.header-container{
-  display:flex;
-  flex-wrap:wrap;
-}
-
-  .logo {
-    order: 1;
-  }
-
-  .nav-bar {
-    order: 3;
-    border-top: 1px solid #2d2d2d;
-  }
-
-  .shopping-cart {
-    order: 2;
-  }
-
-
-body{
-  font-size:1.0rem;
-}
-.box{
-    height:200px;
-    text-transform: uppercase;
-    font-size:1.0rem;
-  }
-.mens{
-  flex-basis:100%;
-  border-bottom:4px solid white;
-  border-right-width: 0px;
-}
-.womens{
-  flex-basis:100%;
-  border-top:4px solid white;
-}
-.bags{
-  flex-basis:49%;
-  border-top:4px solid white;
-  border-right: 4px solid white;
-  border-right-width: 0px;
-}
-.sale{
-  flex-basis:49%;
-  border-top:4px solid white;
-  border-right: 4px solid white;
-}
-.trends{
-  flex-basis:49%;
-  border-right:4px solid white;
-}
-.glasses{
-  flex-basis:49%;
-}
-  .spring{
-    font-size:2rem;
-  }
-
-/* CAROUSEL  */
-
-
-.carousel-image{
-  width:100%;
-}
-
-.sign-up-info{
-  font-size:14px;
-}
-
-.header-info{
-  font-size:14px;
-}
-
+/* FOOTER */
 footer{
-  display:flex;
-  justify-content:space-between;
-  flex-direction:row;
-  }
-
-
-.email-form{
-  padding-top: 30px;
-}
-
-input[type="email"]{
-  text-align:left;
-}
-
+  display:block;
+  justify-content: space-between;
+  background-color:rgb(37, 37, 37);
+  margin-top: 0.5%;
+  padding-top: 2.8rem; 
+  padding-left: 100px;
+} 
 
 
 .contact-info{
-  text-align:left;
-  font-size: 12px;
-  padding-left: 10px;
-  padding-bottom: 0px;
-  }
-
-.social-icons{
-  text-align:left;
-  }
-  
+  text-align: center;
+  line-height: 2rem;
+  font-family:'Raleway';
+  color:white;
+  flex-direction: column;
+  padding-right:100px;
 }
 
-@media screen and (max-width: 1240px){
 
-  .box {
-    height:12.5rem;
+
+.social-icons{
+  display:flex;
+  padding-right: 100px;
+  color:white;
+}
+.social-icons li{
+  width:50px;
+}
+
+.social-icons a:hover{
+color:#b64036;
+}
+
+.social-text{
+  visibility: hidden;
+  
   }
 
+.address{
+  color:#969696;
+  font-family:'Raleway';
+}
 
-  .carousel-cell {
-    width: 50%;
+.contact-email {
+  color:white;
+  text-decoration: none;
+}
+
+/* END OF FOOTER */
+
+@media screen and (min-width : 600px){
+  /* MAIN HEADER */
+  .header-container{
+    display:flex;
+    flex-wrap:none;
+    height:50px;
+  }
+ 
+    .nav-list{
+      border-top:none;
+    }
+    
+    .header-container{
+      padding-top: 0px;
+      height: 90px;
+    }
+  
+  .logo{
+    padding-top:10px;
+  }
+  
+    .nav-bar{
+      order: 2;
+      flex: 1 1 70%;
+      
+      }
+    
+    .nav-list {
+      display:flex;
+      justify-content:space-around;
+      width:370px;
+      margin:0 auto;
+      padding:.8rem 0rem;
+      }
+      
+    .nav-bar a {
+      display:inline-block;
+      justify-content: center;
+      color:#e2574c;
+      font-size:0.9rem;
+      text-decoration: none;
+      text-transform:uppercase;
+      font-family:'Raleway';
+      font-weight:bold;
+     }
+
+  .shopping-cart {
+    display: flex;
+    align-self: flex-end;
+    order: 3;
+    height: 4rem;
+}
+
+.shopping-cart img{
+  padding-left: 0;
+}
+
+
+  /* MAIN HEADER END */
+  
+
+  
+  /* CATEGORIES LIST */
+  .box{
+      height:200px;
+      text-transform: uppercase;
+      font-size:2.0rem;
+    }
+  .mens{
+    flex-basis:49%;
+    border-bottom:8px solid white;
+   border-right:8px solid white;
+  }
+  .womens{
+    flex-basis:49%;
+    border-top-width: 0px;
+  }
+  .bags{
+    flex-basis:24%;
+    border-right: 8px solid white;
+    border-top-width: 0px;
+    
+  }
+  .sale{
+    flex-basis:24%;
+    border-right: 8px solid white;
+    border-top-width: 0px;
+    
+  }
+  .trends{
+    flex-basis:24%;
+    border-right:8px solid white;
+  }
+  .glasses{
+    flex-basis:24%;
+  }
+    .spring{
+      font-size:2rem;
+    }
+  /* CATEGORIES LIST END */
+  
+  /* CAROUSEL  */
+  
+  .carousel-cell{
+    width:50%;
+  }
+  
+  /* CAROUSEL END */
+  
+  /* FOOTER */
+  
+  footer{
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row;
+    padding-left:20px;
+    padding-bottom:20px;
+    font-size:16px;
+    }
+  
+  .contact-info{
+    text-align:left;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    padding-top:20px;
+    line-height: 2rem;
+    }
+  
+.social-list{
+  padding-right:75px;
+  text-align: left;
+}
+
+  .social-icons{
+    display:flex;
+    flex-direction:column;
+    }
+  .social-text{
+    visibility: visible;
+    font-family:"raleway", sans-serif;
+    color:white;
+    font-weight:lighter;
+    padding-left:2rem;
+    text-decoration:none;
+    text-align: right;
+    padding-left:60px;
+  }
+  
+  
+  .social-icons a:hover{
+    color:#b64036;
+    }
+.number-email{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+}
+
+
+@media screen and (min-width : 1024px){
+
+  .header-container{
+    padding-top: 0px;
+    height: 90px;
   }
 
+.logo{
+  padding-top:10px;
+}
 
+  .nav-bar{
+    order: 2;
+    flex: 1 1 70%;
+    
+    }
+  
+  .nav-list {
+    display:flex;
+    justify-content:space-around;
+    width:370px;
+    margin:0 auto;
+    padding:.8rem 0rem;
+    }
+    
+  .nav-bar a {
+    display:inline-block;
+    justify-content: center;
+    color:#e2574c;
+    font-size:0.9rem;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-family:'Raleway';
+    font-weight:bold;
+   }
+
+.header-info{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.new-collection{
+  font-size:2.5rem;
+}
+
+.spring{
+  font-size:3rem;
+}
+
+.box{
+  height:15rem;
+}
+
+
+.carousel-cell{
+  width:25%;
+}
+
+
+.contact-info{
+  font-size:16px;
+}
+
+.sign-up-info{
+  padding-left: 250px;
+  padding-right: 250px;
+}
 
 }
