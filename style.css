@@ -203,7 +203,7 @@ table {
   font-size:0.9rem;
   text-decoration: none;
   text-transform:uppercase;
-  font-family:'Raleway';
+  font-family:'Raleway', serif;
   font-weight:bold;
  
   }
@@ -218,7 +218,7 @@ table {
     color:white;
     text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
     font-weight:bold;
-    font-family:'Playfair Display';
+    font-family:'Playfair Display', serif;
     }
     
   .hero {
@@ -234,7 +234,7 @@ table {
  .spring {
       text-align:center;
       padding-top:1rem;
-      font-family:'Playfair Display';
+      font-family:'Playfair Display', serif;
       font-size:3.5rem;
       color:white;
       text-shadow: 1rem 1rem 2rem rgba(100, 100, 100, 0.8);
@@ -261,7 +261,7 @@ table {
   display:flex;
   justify-content: center;
   align-items: center;
-  font-family:'Raleway';
+  font-family:'Raleway', serif;
   font-weight:bold;
   font-size:2rem;
   color:white;
@@ -338,13 +338,13 @@ li {
 }
 
 .price {
-font-family:'Raleway'; 
+font-family:'Raleway', serif; 
 color:#969696;
 }
 
 
 .clothing-category{
-  font-family:'Raleway';
+  font-family:'Raleway', serif;
 }
 
 .item-name{
@@ -374,7 +374,7 @@ color:#969696;
 
 .header{
   text-align:center;
-  font-family:'Playfair Display';
+  font-family:'Playfair Display',serif;
   font-size:2.5rem;
   color:#2d2d2d;
   padding-top: 5rem;
@@ -382,7 +382,7 @@ color:#969696;
 }
   
 .heavy{
-    font-family:'Playfair Display';
+    font-family:'Playfair Display', serif;
     font-style:normal;
     font-weight:bold;   
 }
@@ -393,7 +393,7 @@ color:#969696;
   justify-content: center;
   padding-top:3rem;
   padding-bottom:3rem;
-  font-family:'Raleway';
+  font-family:'Raleway', serif;
   font-size:1.10rem;
   color:#2d2d2d;
   font-weight: lighter;
@@ -421,7 +421,7 @@ color:#969696;
 
 .sign-up-title{
   padding-top:1rem;
-  font-family:'Fairplay Display';
+  font-family:'Fairplay Display', serif;
   font-size:1.5rem;
   color:white;
   text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
@@ -431,7 +431,7 @@ color:#969696;
 
 .sign-up-info{
   padding-top:1rem;
-  font-family:'Raleway';
+  font-family:'Raleway', serif;
   font-size:1.0rem;
   color:white;
   text-shadow: 1rem 1rem 2rem rgba(100, 100, 100, 0.8);
@@ -492,7 +492,7 @@ footer{
 .contact-info{
   text-align: center;
   line-height: 2rem;
-  font-family:'Raleway';
+  font-family:'Raleway', serif;
   color:white;
   flex-direction: column;
   padding-right:100px;
@@ -524,7 +524,7 @@ color:#b64036;
 
 .address{
   color:#969696;
-  font-family:'Raleway';
+  font-family:'Raleway', serif;
 }
 
 .contact-email {
@@ -574,7 +574,7 @@ color:#b64036;
       font-size:0.9rem;
       text-decoration: none;
       text-transform:uppercase;
-      font-family:'Raleway';
+      font-family:'Raleway', serif;
       font-weight:bold;
      }
 
@@ -671,7 +671,7 @@ color:#b64036;
     }
   .social-text{
     visibility: visible;
-    font-family:"raleway", sans-serif;
+    font-family:"raleway", serif;
     color:white;
     font-weight:lighter;
     padding-left:2rem;
@@ -727,7 +727,7 @@ color:#b64036;
     font-size:0.9rem;
     text-decoration: none;
     text-transform:uppercase;
-    font-family:'Raleway';
+    font-family:'Raleway', serif;
     font-weight:bold;
    }
 /* MAIN HEADER END */
