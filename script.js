@@ -1,8 +1,10 @@
 
+$(document).ready(function(e) {
+
+
 // smooth scrolling from css tricks
 
 $('a[href*="#"]')
-// Remove links that don't actually link to anything
 .not('[href="#"]')
 .not('[href="#0"]')
 .click(function(event) {
@@ -39,23 +41,41 @@ $('a[href*="#"]')
 
 
 
-
+// carousel
 $('.main-carousel').flickity({
   cellAlign: 'left',
   contain: true
   
 });
+// 
 
 
+// EMAIL SUBSCRIBE
+$('#subscribe-button').click(function(){
+var sEmail = $('#email-text').val();
+if ($.trim(sEmail).length == 0) {
+  alert("please enter a valid e-mail");
+  e.preventDefault();
+}
+if (validateEmail(sEmail)) {
+  alert("Thank you for subscribing")
+}
+else {
+  alert("Invalid Email address");
+  e.preventDefault();
+}
+});
+});
 
 
+// VALIDATION EMAIL
+function validateEmail(sEmail) {
+  var filter = /^[\w\-\.\+]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z0-9]{2,4}$/;
+  if (filter.test(sEmail)){
+    return true;
+  }
+  else{
+    return false;
+  }
+}
 
-
-// function isEmpty(){
-//     if(document.forms['form'].question.value === "")
-//     {
-//       alert("empty");
-//       return false;
-//     }
-//       return true;
-//   }   

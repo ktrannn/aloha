@@ -262,8 +262,6 @@ table {
   color:white;
   height: 12.5rem;
   text-transform: uppercase;
-  
-  
 }
 
 
@@ -285,8 +283,6 @@ border-bottom:8px solid white;
   background-position: center, center;
   background-size: cover, cover;
   border-right:8px solid white;
-  
-
 }
 
 .glasses{
@@ -296,7 +292,6 @@ border-bottom:8px solid white;
   background-position: center, center;
   background-size: cover, cover;
  flex-basis:49%;
- 
 }
 
 .sale{
@@ -462,7 +457,7 @@ input[type="email"]{
  color:#969696;
  }
 
-.email-button{
+#subscribe-button{
   padding-right: 10px;
   padding-bottom: 10px;
   height:2.5rem;
@@ -513,6 +508,10 @@ footer{
 color:#b64036;
 }
 
+.fa:hover{
+  color:#b64036
+}
+
 .social-text{
   visibility: hidden;
   
@@ -534,7 +533,6 @@ color:#b64036;
   /* MAIN HEADER */
   .header-container{
     display:flex;
-    flex-wrap:none;
     height:50px;
   }
  
@@ -554,7 +552,6 @@ color:#b64036;
     .nav-bar{
       order: 2;
       flex: 1 1 70%;
-      
       }
     
     .nav-list {
@@ -636,7 +633,6 @@ color:#b64036;
   .carousel-cell{
     width:50%;
   }
-  
   /* CAROUSEL END */
   
   /* FOOTER */
@@ -688,12 +684,15 @@ color:#b64036;
   padding-bottom: 20px;
 }
 
-}
+/* FOOTER END */
 
 
 @media screen and (min-width : 1024px){
 
-  .header-container{
+
+
+/* MAIN HEADER */
+.header-container{
     padding-top: 0px;
     height: 90px;
   }
@@ -726,30 +725,37 @@ color:#b64036;
     font-family:'Raleway';
     font-weight:bold;
    }
+/* MAIN HEADER END */
 
+   /* HAND CRAFTED SECTION */
 .header-info{
   padding-left: 100px;
   padding-right: 100px;
 }
 
+/* HERO IMAGE */
 .new-collection{
-  font-size:2.5rem;
+  font-size:2rem;
 }
 
 .spring{
   font-size:3rem;
 }
+/* HERO IMAGE END */
 
+/* CATEGORIES */
 .box{
-  height:15rem;
+  height:20rem;
 }
+/* CATEGORIES END */
 
-
+/* CAROUSEL */
 .carousel-cell{
   width:25%;
 }
+/* CAROUSEL END */
 
-
+/* OCEAN IMAGE */
 .contact-info{
   font-size:16px;
 }
@@ -758,5 +764,8 @@ color:#b64036;
   padding-left: 250px;
   padding-right: 250px;
 }
+/* OCEAN IMAGE */
 
-}
+
+
+}}
