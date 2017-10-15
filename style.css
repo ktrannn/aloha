@@ -252,6 +252,11 @@ table {
    
     
 }
+
+.category-name:hover{
+  color:#b64036;
+}
+
 .box{
   display:flex;
   justify-content: center;
@@ -745,7 +750,7 @@ color:#b64036;
 
 /* CATEGORIES */
 .box{
-  height:20rem;
+  height:15rem;
 }
 /* CATEGORIES END */
 
