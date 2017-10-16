@@ -347,7 +347,7 @@ color:#969696;
   font-family:'Raleway', serif;
 }
 
-.item{
+.clothing-item{
   color:#e2574c;
 }
 
@@ -774,3 +774,9 @@ color:#b64036;
 
 
 }}
+
+@media screen and (min-width : 1024px){
+  .box{
+    height:20rem;
+  }
+}
