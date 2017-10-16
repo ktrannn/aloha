@@ -51,7 +51,7 @@ $('.main-carousel').flickity({
 
 
 // EMAIL SUBSCRIBE
-$('#subscribe-button').click(function(){
+$('#subscribe-button').click(function(e){
 var sEmail = $('#email-text').val(); 
 if ($.trim(sEmail).length == 0) {
   alert("please enter a valid e-mail");
@@ -78,4 +78,5 @@ function validateEmail(sEmail) {
     return false;
   }
 }
+
 

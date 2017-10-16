@@ -51,88 +51,88 @@ table {
 /* FONTS */
 @font-face {
 	font-family: 'Raleway';
-	src: url('fonts/Raleway-LightItalic.eot');
-	src: url('fonts/Raleway-LightItalic.eot?#iefix') format('embedded-opentype'),
-		url('fonts/Raleway-LightItalic.woff2') format('woff2'),
-		url('fonts/Raleway-LightItalic.ttf') format('truetype'),
-		url('fonts/Raleway-LightItalic.svg#Raleway-LightItalic') format('svg');
+	src: url('../fonts/Raleway-LightItalic.eot');
+	src: url('../fonts/Raleway-LightItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Raleway-LightItalic.woff2') format('woff2'),
+		url('../fonts/Raleway-LightItalic.ttf') format('truetype'),
+		url('../fonts/Raleway-LightItalic.svg#Raleway-LightItalic') format('svg');
 	font-weight: 300;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Raleway';
-	src: url('fonts/Raleway-Medium.eot');
-	src: url('fonts/Raleway-Medium.eot?#iefix') format('embedded-opentype'),
-		url('fonts/Raleway-Medium.woff2') format('woff2'),
-		url('fonts/Raleway-Medium.ttf') format('truetype'),
-		url('fonts/Raleway-Medium.svg#Raleway-Medium') format('svg');
+	src: url('../fonts/Raleway-Medium.eot');
+	src: url('../fonts/Raleway-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Raleway-Medium.woff2') format('woff2'),
+		url('../fonts/Raleway-Medium.ttf') format('truetype'),
+		url('../fonts/Raleway-Medium.svg#Raleway-Medium') format('svg');
 	font-weight: 500;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Raleway';
-	src: url('fonts/Raleway-Light.eot');
-	src: url('fonts/Raleway-Light.eot?#iefix') format('embedded-opentype'),
-		url('fonts/Raleway-Light.woff2') format('woff2'),
-		url('fonts/Raleway-Light.ttf') format('truetype'),
-		url('fonts/Raleway-Light.svg#Raleway-Light') format('svg');
+	src: url('../fonts/Raleway-Light.eot');
+	src: url('../fonts/Raleway-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Raleway-Light.woff2') format('woff2'),
+		url('../fonts/Raleway-Light.ttf') format('truetype'),
+		url('../fonts/Raleway-Light.svg#Raleway-Light') format('svg');
 	font-weight: 300;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Raleway';
-	src: url('fonts/Raleway-MediumItalic.eot');
-	src: url('fonts/Raleway-MediumItalic.eot?#iefix') format('embedded-opentype'),
-		url('fonts/Raleway-MediumItalic.woff2') format('woff2'),
-		url('fonts/Raleway-MediumItalic.ttf') format('truetype'),
-		url('fonts/Raleway-MediumItalic.svg#Raleway-MediumItalic') format('svg');
+	src: url('../fonts/Raleway-MediumItalic.eot');
+	src: url('../fonts/Raleway-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Raleway-MediumItalic.woff2') format('woff2'),
+		url('../fonts/Raleway-MediumItalic.ttf') format('truetype'),
+		url('../fonts/Raleway-MediumItalic.svg#Raleway-MediumItalic') format('svg');
 	font-weight: 500;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Playfair Display';
-	src: url('fonts/PlayfairDisplay-BoldItalic.eot');
-	src: url('fonts/PlayfairDisplay-BoldItalic.eot?#iefix') format('embedded-opentype'),
-		url('fonts/PlayfairDisplay-BoldItalic.woff2') format('woff2'),
-		url('fonts/PlayfairDisplay-BoldItalic.ttf') format('truetype'),
-		url('fonts/PlayfairDisplay-BoldItalic.svg#PlayfairDisplay-BoldItalic') format('svg');
+	src: url('../fonts/PlayfairDisplay-BoldItalic.eot');
+	src: url('../fonts/PlayfairDisplay-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/PlayfairDisplay-BoldItalic.woff2') format('woff2'),
+		url('../fonts/PlayfairDisplay-BoldItalic.ttf') format('truetype'),
+		url('../fonts/PlayfairDisplay-BoldItalic.svg#PlayfairDisplay-BoldItalic') format('svg');
 	font-weight: bold;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Playfair Display';
-	src: url('fonts/PlayfairDisplay-Bold.eot');
-	src: url('fonts/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
-		url('fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
-		url('fonts/PlayfairDisplay-Bold.ttf') format('truetype'),
-		url('fonts/PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold') format('svg');
+	src: url('../fonts/PlayfairDisplay-Bold.eot');
+	src: url('../fonts/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
+		url('../fonts/PlayfairDisplay-Bold.ttf') format('truetype'),
+		url('../fonts/PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold') format('svg');
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Playfair Display';
-	src: url('fonts/PlayfairDisplay-Regular.eot');
-	src: url('fonts/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
-		url('fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
-		url('fonts/PlayfairDisplay-Regular.ttf') format('truetype'),
-		url('fonts/PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular') format('svg');
+	src: url('../fonts/PlayfairDisplay-Regular.eot');
+	src: url('./fonts/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
+		url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype'),
+		url('../fonts/PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Playfair Display';
-	src: url('fonts/PlayfairDisplay-Italic.eot');
-	src: url('fonts/PlayfairDisplay-Italic.eot?#iefix') format('embedded-opentype'),
-		url('fonts/PlayfairDisplay-Italic.woff2') format('woff2'),
-		url('fonts/PlayfairDisplay-Italic.ttf') format('truetype'),
-		url('fonts/PlayfairDisplay-Italic.svg#PlayfairDisplay-Italic') format('svg');
+	src: url('../fonts/PlayfairDisplay-Italic.eot');
+	src: url('../fonts/PlayfairDisplay-Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/PlayfairDisplay-Italic.woff2') format('woff2'),
+		url('../fonts/PlayfairDisplay-Italic.ttf') format('truetype'),
+		url('../fonts/PlayfairDisplay-Italic.svg#PlayfairDisplay-Italic') format('svg');
 	font-weight: normal;
 	font-style: italic;
 }
@@ -227,8 +227,8 @@ table {
       text-align: center;
       background:
       linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
-      url("images/banner-girl.png")no-repeat center 160px,
-      url("images/flower-bkgd.jpg")center;
+      url("../images/banner-girl.png")no-repeat center 160px,
+      url("../images/flower-bkgd.jpg")center;
       }
 
  .spring {
@@ -273,7 +273,7 @@ table {
 .mens{
 background:
 linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
-url("images/mens-category.jpg")center;
+url("../images/mens-category.jpg")center;
 background-position: center, center;
 background-size: cover, cover;
 flex-basis:100%;
@@ -284,7 +284,7 @@ border-bottom:8px solid white;
   flex-basis:49%;
   background:
   linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
-  url("images/trends-category.jpg")center;
+  url("../images/trends-category.jpg")center;
   background-position: center, center;
   background-size: cover, cover;
   border-right:8px solid white;
@@ -293,7 +293,7 @@ border-bottom:8px solid white;
 .glasses{
   background:
   linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
-  url("images/glasses-category.jpg")center;
+  url("../images/glasses-category.jpg")center;
   background-position: center, center;
   background-size: cover, cover;
  flex-basis:49%;
@@ -302,7 +302,7 @@ border-bottom:8px solid white;
 .sale{
   background:
   linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
-  url("images/sale-category.jpg")center;
+  url("../images/sale-category.jpg")center;
   background-position: center, center;
   background-size: cover, cover;
   flex-basis: 49%;
@@ -313,7 +313,7 @@ border-bottom:8px solid white;
 .bags{
   background:
   linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
-  url("images/bags-category.jpg")center;
+  url("../images/bags-category.jpg")center;
   background-position: center, center;
   background-size: cover, cover;
  flex-basis:49%;
@@ -323,7 +323,7 @@ border-bottom:8px solid white;
 .womens{
   background:
   linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
-  url("images/womens-category.jpg")center;
+  url("../images/womens-category.jpg")center;
   background-position: center, center;
   background-size: cover, cover;
   flex-basis:100%;
@@ -412,7 +412,7 @@ color:#969696;
   height: 12.5rem;
   background:
   linear-gradient( to bottom, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.05) 100% ),
-  url("images/wave-bkgd.jpg");
+  url("../images/wave-bkgd.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
 
@@ -689,6 +689,7 @@ color:#b64036;
   padding-bottom: 20px;
 }
 
+
 /* FOOTER END */
 
 
@@ -775,7 +776,7 @@ color:#b64036;
 
 }}
 
-@media screen and (min-width : 1024px){
+@media screen and (min-width : 1920px){
   .box{
     height:20rem;
   }
