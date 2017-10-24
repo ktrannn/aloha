@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title id="title">Aloha Apparel</title>
+  <title>Aloha Apparel</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link href="https://use.fontawesome.com/51000e27a8.css" media="all" rel="stylesheet">
   <link rel="stylesheet" href="css/flickity.min.css" media="screen">
@@ -13,10 +13,10 @@
 </head>
 <header class="header-container">
   <div class="logo">
-    <img src="images/aloha-logo.svg" alt="aloha logo" class="logo">
+    <img src="images/aloha-logo.svg" alt="aloha logo">
   </div>
   <div class="shopping-cart">
-    <img src="images/cart-icon.svg" alt="shopping cart" class="shopping-cart">
+    <img src="images/cart-icon.svg" alt="shopping cart">
   </div>
   <div class="nav-bar">
     <ul class="nav-list">
@@ -36,42 +36,42 @@
   </div>
 </header>
 
-
-<div class="hero">
-  <p class="new-collection">New collection </p>
-  <p class="spring">Spring/Summer 2016 </p>
-</div>
-
-<section id="about">
+<section>
+  <div class="hero">
+    <p class="new-collection">New collection </p>
+    <p class="spring">Spring/Summer 2016 </p>
+  </div>
+</section>
+<section class="about">
   <h2 class="header">Hand-Crafted
     <span class="heavy">Styles</span>
   </h2>
   <p class="header-info" id="shop">Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for
     updates below</p>
 </section>
-
-<div class="category-list">
-  <div class="mens box">
-    <p class="category-name">mens</p>
+<section>
+  <div class="category-list">
+    <div class="mens box">
+      <p class="category-name">mens</p>
+    </div>
+    <div class="trends box">
+      <p class="category-name">trends</p>
+    </div>
+    <div class="glasses box">
+      <p class="category-name">glasses</p>
+    </div>
+    <div class="sale box">
+      <p class="category-name">sale</p>
+    </div>
+    <div class="bags box">
+      <p class="category-name">bags</p>
+    </div>
+    <div class="womens box">
+      <p class="category-name">women's</p>
+    </div>
   </div>
-  <div class="trends box">
-    <p class="category-name">trends</p>
-  </div>
-  <div class="glasses box">
-    <p class="category-name">glasses</p>
-  </div>
-  <div class="sale box">
-    <p class="category-name">sale</p>
-  </div>
-  <div class="bags box">
-    <p class="category-name">bags</p>
-  </div>
-  <div class="womens box">
-    <p class="category-name">women's</p>
-  </div>
-</div>
-
-<section id="featured">
+</section>
+<section>
   <h3 class="header">Most-Loved
     <span class="heavy">Prodcts</span>
   </h3>
@@ -129,9 +129,9 @@
   </ul>
 </section>
 <div class="ocean-image" id="updates">
-  <h3 class="sign-up-title"> Sign-up for
+  <h2 class="sign-up-title"> Sign-up for
     <span class="heavy">Updates</span>
-  </h3>
+  </h2>
 
   <div class="sign-up-info">
     <p>Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from
@@ -139,7 +139,7 @@
   </div>
   <form class="email-form">
     <input type="email" name="email" id="email-text" placeholder="Your Email" />
-    <input type="submit" name="subscribe" value="Subscribe" id="subscribe-button">
+    <input type="submit" name="subscribe" value="Subscribe" class="subscribe-button">
   </form>
 </div>
 <footer>
@@ -151,8 +151,10 @@
         <span class="contact-email">info@alohaapparel.com</span>
       </a>
     </p>
-    <p class="address">1490 W Broadway</p>
-    <p class="address">Vancouver,BC,Canada</p>
+    <div class="address">
+    <p>1490 W Broadway</p>
+    <p>Vancouver,BC,Canada</p>
+    </div>
   </div>
   <div class="social-list">
     <ul class="social-icons">

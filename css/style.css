@@ -140,133 +140,128 @@ table {
 
 /* MAIN HEADER */
 .header-container{
-  display:flex;
-  flex-wrap:wrap;
-  width:100%;
-  z-index: 99999;
-  justify-content: space-between;
-  align-content: center;
-  align-items: center;
-  position: fixed;
-  background-color: white;
-  padding-top:20px;
+display:flex;
+flex-wrap:wrap;
+width:100%;
+z-index: 99999;
+justify-content: space-between;
+align-content: center;
+align-items: center;
+position: fixed;
+background-color: white;
+padding-top:20px;
 }
 
 .logo{
-  display:flex; 
-  justify-content: flex-start;
-  flex: 1 1 15%;
-  order: 1;
+display:flex; 
+justify-content: flex-start;
+flex: 1 1 15%;
+order: 1;
 }
 
 .logo img {
-  max-width: 100%;
-  height:4rem;
-  padding-left:30px;
-  padding-bottom:10px;
+max-width: 100%;
+height:4rem;
+padding-left:30px;
+padding-bottom:10px;
 }
 
 .shopping-cart{
-  display:flex;
-  align-self:flex-end;
-  flex: 1 1 15%;
-  order: 2;
-  height:4rem;
+display:flex;
+align-self:flex-end;
+flex: 1 1 15%;
+order: 2;
+height:4rem;
 }
 
 .shopping-cart img{
-  padding-left:60px;
-  padding-bottom: 10px;
+padding-left:60px;
+padding-bottom: 10px;
 }
 /* MAIN HEADER END */
 
 /* NAV-BAR*/
 .nav-bar{
-  order: 3;
-  flex: 1 1 70%;
-  
-  }
+order: 3;
+flex: 1 1 70%;
+}
 
 .nav-list {
-  display:flex;
-  justify-content:space-around;
-  width:370px;
-  margin:0 auto;
-  padding:.8rem 0rem;
-  border-top:2px solid #2d2d2d;
-  }
+display:flex;
+justify-content:space-around;
+width:370px;
+margin:0 auto;
+padding:.8rem 0rem;
+border-top:2px solid #2d2d2d;
+}
   
 .nav-bar a {
-  display:inline-block;
-  justify-content: center;
-  color:#e2574c;
-  font-size:0.9rem;
-  text-decoration: none;
-  text-transform:uppercase;
-  font-family:'Raleway', serif;
-  font-weight:bold;
- 
-  }
+display:inline-block;
+justify-content: center;
+color:#e2574c;
+font-size:0.9rem;
+text-decoration: none;
+text-transform:uppercase;
+font-family:'Raleway', serif;
+font-weight:bold;
+}
 /* NAV END  */
 
 /* HERO IMAGE BANNER SECTION */
-  .new-collection {
-    text-align:center;
-    padding-top: 15.5rem;
-    text-transform:uppercase;
-    font-size:1.5rem;
-    color:white;
-    font-family:'Raleway', serif;
-    }
+.new-collection {
+text-align:center;
+padding-top: 15.5rem;
+text-transform:uppercase;
+font-size:1.0rem;
+color:white;
+font-family:'Raleway', serif;
+}
     
-  .hero {
-      height:645px;
-      width:100%;
-      text-align: center;
-      background:
-      linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
-      url("../images/banner-girl.png")no-repeat center 60px,
-      url("../images/flower-bkgd.jpg")center;
-    }
+.hero {
+height:645px;
+width:100%;
+text-align: center;
+background:
+linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
+url("../images/banner-girl.png")no-repeat center 60px,
+url("../images/flower-bkgd.jpg")center;
+}
 
- .spring {
-      text-align:center;
-      padding-top:1rem;
-      font-family:'Playfair Display', serif;
-      font-size:3.5rem;
-      color:white;
-      text-shadow: 1rem 1rem 2rem rgba(100, 100, 100, 0.8);
-      width:auto;
-      
-      }
+.spring {
+text-align:center;
+padding-top:1rem;
+font-family:'Playfair Display', serif;
+font-size:2.5rem;
+color:white;
+text-shadow: 1rem 1rem 2rem rgba(100, 100, 100, 0.8);
+width:auto;
+}
 /* END OF HERO BANNER SECTION */
 
 /*  CATEGORIES LIST */
 
 .category-name:hover{
-  color:#b64036;
+color:#b64036;
 }
 
 .category-list{
-  display:flex;
-  flex-wrap:wrap;
-  justify-content: center;
-   
-    
+display:flex;
+flex-wrap:wrap;
+justify-content: center;       
 }
 
 
 
 .box{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  font-family:'Raleway', serif;
-  font-weight:bold;
-  font-size:2rem;
-  color:white;
-  height: 12.5rem;
-  text-transform: uppercase;
+display:flex;
+justify-content: center;
+align-items: center;
+font-family:'Raleway', serif;
+font-weight:bold;
+font-size:2rem;
+color:white;
+height: 12.5rem;
+text-transform: uppercase;
 }
 
 
@@ -281,60 +276,60 @@ border-bottom:8px solid white;
 }
 
 .trends{
-  flex-basis:49%;
-  background:
-  linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
-  url("../images/trends-category.jpg")center;
-  background-position: center, center;
-  background-size: cover, cover;
-  border-right:8px solid white;
+flex-basis:49%;
+background:
+linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
+url("../images/trends-category.jpg")center;
+background-position: center, center;
+background-size: cover, cover;
+border-right:8px solid white;
 }
 
 .glasses{
-  background:
-  linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
-  url("../images/glasses-category.jpg")center;
-  background-position: center, center;
-  background-size: cover, cover;
- flex-basis:49%;
+background:
+linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
+url("../images/glasses-category.jpg")center;
+background-position: center, center;
+background-size: cover, cover;
+flex-basis:49%;
 }
 
 .sale{
-  background:
-  linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
-  url("../images/sale-category.jpg")center;
-  background-position: center, center;
-  background-size: cover, cover;
-  flex-basis: 49%;
-  border-top:8px solid white;
-  border-right: 8px solid white;
+background:
+linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
+url("../images/sale-category.jpg")center;
+background-position: center, center;
+background-size: cover, cover;
+flex-basis: 49%;
+border-top:8px solid white;
+border-right: 8px solid white;
 }
 
 .bags{
-  background:
-  linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
-  url("../images/bags-category.jpg")center;
-  background-position: center, center;
-  background-size: cover, cover;
- flex-basis:49%;
- border-top:8px solid white;
+background:
+linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
+url("../images/bags-category.jpg")center;
+background-position: center, center;
+background-size: cover, cover;
+flex-basis:49%;
+border-top:8px solid white;
 }
 
 .womens{
-  background:
-  linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
-  url("../images/womens-category.jpg")center;
-  background-position: center, center;
-  background-size: cover, cover;
-  flex-basis:100%;
-  border-top:8px solid white;
+background:
+linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
+url("../images/womens-category.jpg")center;
+background-position: center, center;
+background-size: cover, cover;
+flex-basis:100%;
+border-top:8px solid white;
 }
 /* CATEGORIES LIST END */
 
 /* CAROUSEL */
  
 li {
-    list-style-type: none;
+list-style-type: none;
 }
 
 .price {
@@ -344,134 +339,131 @@ color:#969696;
 
 
 .clothing-category{
-  font-family:'Raleway', serif;
+font-family:'Raleway', serif;
 }
 
 .clothing-item{
-  color:#e2574c;
+color:#e2574c;
 }
 
 .main-carousel{
-  padding-bottom: 50px;
-  
+padding-bottom: 50px;
 }
 
 .carousel-cell {
-  text-align: center;
-  width:100%;
+text-align: center;
+width:100%;
 }
 
 .carousel-cell p{
-  padding:10px;
+padding:10px;
 }
 
 .carousel-image{
-  padding-top:5rem;
+padding-top:5rem;
 }
 
 
 /* HAND CRAFTED STYLES HEADER */
 
 .header{
-  text-align:center;
-  font-family:'Playfair Display',serif;
-  font-size:2.5rem;
-  color:#2d2d2d;
-  padding-top: 5rem;
-  font-style:italic;
+text-align:center;
+font-family:'Playfair Display',serif;
+font-size:2.5rem;
+color:#2d2d2d;
+padding-top: 5rem;
+font-style:italic;
 }
   
 .heavy{
-    font-family:'Playfair Display', serif;
-    font-style:normal;
-    font-weight:bold;   
+font-family:'Playfair Display', serif;
+font-style:normal;
+font-weight:bold;   
 }
 
 .header-info{
-  display:block; 
-  text-align: center;
-  justify-content: center;
-  padding-top:3rem;
-  padding-bottom:3rem;
-  font-family:'Raleway', serif;
-  font-size:1.10rem;
-  color:#2d2d2d;
-  font-weight: lighter;
-  padding-left: 20px;
-  padding-right: 20px;
-  line-height: 40px;
+display:block; 
+text-align: center;
+justify-content: center;
+padding-top:3rem;
+padding-bottom:3rem;
+font-family:'Raleway', serif;
+font-size:1.10rem;
+color:#2d2d2d;
+font-weight: lighter;
+padding-left: 20px;
+padding-right: 20px;
+line-height: 40px;
 }
- /* END OF HAND CRAFTED STYLES HEADER */
+/* END OF HAND CRAFTED STYLES HEADER */
 
 /* OCEAN IMAGE SECTION */
 .ocean-image{
-  justify-content: center;
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
-  width: 100%;
-  height: 12.5rem;
-  background:
-  linear-gradient( to bottom, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.05) 100% ),
-  url("../images/wave-bkgd.jpg");
-  background-position: bottom;
-  background-repeat: no-repeat;
-
- text-align: center;
+justify-content: center;
+padding-top: 3.5rem;
+padding-bottom: 3.5rem;
+width: 100%;
+height: 12.5rem;
+background:
+linear-gradient( to bottom, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.05) 100% ),
+url("../images/wave-bkgd.jpg");
+background-position: bottom;
+background-repeat: no-repeat;
+text-align: center;
 }
 
 .sign-up-title{
-  padding-top:1rem;
-  font-family:'Fairplay Display', serif;
-  font-size:1.5rem;
-  color:white;
-  text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
-  width:auto;
-  font-style: italic;
+padding-top:1rem;
+font-family:'Fairplay Display', serif;
+font-size:1.5rem;
+color:white;
+text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
+width:auto;
+font-style: italic;
 }
 
 .sign-up-info{
-  padding-top:1rem;
-  font-family:'Raleway', serif;
-  font-size:1.0rem;
-  color:white;
-  text-shadow: 1rem 1rem 2rem rgba(100, 100, 100, 0.8);
-  width:auto;
-  font-weight:lighter;
-  padding-left: 50px;
-  padding-right: 50px;
-  line-height: 2rem;
-
+padding-top:1rem;
+font-family:'Raleway', serif;
+font-size:1.0rem;
+color:white;
+text-shadow: 1rem 1rem 2rem rgba(100, 100, 100, 0.8);
+width:auto;
+font-weight:lighter;
+padding-left: 50px;
+padding-right: 50px;
+line-height: 2rem;
 }
 
 .email-form{
-  padding-top: 10px;
+padding-top: 10px;
 }
 
 input[type="email"], input[type="submit"] {    
-  border-radius: 25px;
-  border: 0;
-   }
+border-radius: 25px;
+border: 0;
+}
 input[type="email"]{
- width: 80%;
- max-width:400px;
- height: 2.5rem;
- padding-left: 1rem;
- font-size:1rem;
- font-family:"raleway",sans-serif;
- font-weight:bold;
- color:#969696;
- }
+width: 80%;
+max-width:400px;
+height: 2.5rem;
+padding-left: 1rem;
+font-size:1rem;
+font-family:"raleway",sans-serif;
+font-weight:bold;
+color:#969696;
+}
 
-#subscribe-button{
-  padding-right: 10px;
-  padding-bottom: 10px;
-  height:2.5rem;
-  margin-left: -125px;
-	background-color: #e2574c;
-	border-radius: 50em;
-	color: #fff;
-	border: 0;
-  font-size: 1.5rem;
+.subscribe-button{
+padding-right: 10px;
+padding-bottom: 10px;
+height:2.5rem;
+margin-left: -125px;
+background-color: #e2574c;
+border-radius: 50em;
+color: #fff;
+border: 0;
+font-size: 1.5rem;
 }
 
 /* END OF OCEAN SECTION */
@@ -480,30 +472,30 @@ input[type="email"]{
 
 /* FOOTER */
 footer{
-  display:block;
-  justify-content: space-between;
-  background-color:rgb(37, 37, 37);
-  margin-top: 0.5%;
-  padding-top: 2.8rem; 
-  padding-left: 100px;
+display:block;
+justify-content: space-between;
+background-color:rgb(37, 37, 37);
+margin-top: 0.5%;
+padding-top: 2.8rem; 
+padding-left: 100px;
 } 
 
 
 .contact-info{
-  text-align: center;
-  line-height: 2rem;
-  font-family:'Raleway', serif;
-  color:white;
-  flex-direction: column;
-  padding-right:100px;
+text-align: center;
+line-height: 2rem;
+font-family:'Raleway', serif;
+color:white;
+flex-direction: column;
+padding-right:100px;
 }
 
 
 
 .social-icons{
-  display:flex;
-  padding-right: 100px;
-  color:white;
+display:flex;
+padding-right: 100px;
+color:white;
 }
 
 
@@ -512,286 +504,280 @@ color:#b64036;
 }
 
 .fa:hover{
-  color:#b64036
+color:#b64036
 }
 
 .social-text{
-  visibility: hidden;
-  
-  }
+visibility: hidden;
+}
 
 .address{
-  color:#969696;
-  font-family:'Raleway', serif;
+color:#969696;
+font-family:'Raleway', serif;
 }
 
 .contact-email {
-  color:white;
-  text-decoration: none;
+color:white;
+text-decoration: none;
 }
 
 .fa-instagram{
-  padding-left: 10px;
+padding-left: 10px;
 }
 .contact-info a{
-  text-decoration: none;
+text-decoration: none;
 }
 
 /* END OF FOOTER */
 
 @media screen and (min-width : 600px){
-  /* MAIN HEADER */
-  .header-container{
-    display:flex;
-    height:50px;
-  }
+/* MAIN HEADER */
+.header-container{
+display:flex;
+height:50px;
+}
  
-    .nav-list{
-      border-top:none;
-    }
+.nav-list{
+border-top:none;
+}
     
-    .header-container{
-      padding-top: 0px;
-      height: 90px;
-    }
+.header-container{
+padding-top: 0px;
+height: 90px;
+}
   
-  .logo{
-    padding-top:10px;
-  }
+.logo{
+padding-top:10px;
+}
   
-    .nav-bar{
-      order: 2;
-      flex: 1 1 70%;
-      }
+.nav-bar{
+order: 2;
+flex: 1 1 70%;
+}
     
-    .nav-list {
-      display:flex;
-      justify-content:space-around;
-      width:370px;
-      margin:0 auto;
-      padding:.8rem 0rem;
-      }
+.nav-list {
+display:flex;
+justify-content:space-around;
+width:370px;
+margin:0 auto;
+padding:.8rem 0rem;
+}
       
-    .nav-bar a {
-      display:inline-block;
-      justify-content: center;
-      color:#e2574c;
-      font-size:0.9rem;
-      text-decoration: none;
-      text-transform:uppercase;
-      font-family:'Raleway', serif;
-      font-weight:bold;
-     }
+.nav-bar a {
+display:inline-block;
+justify-content: center;
+color:#e2574c;
+font-size:0.9rem;
+text-decoration: none;
+text-transform:uppercase;
+font-family:'Raleway', serif;
+font-weight:bold;
+}
 
-  .shopping-cart {
-    display: flex;
-    align-self: flex-end;
-    order: 3;
-    height: 4rem;
+.shopping-cart {
+display: flex;
+align-self: flex-end;
+order: 3;
+height: 4rem;
 }
 
 .shopping-cart img{
-  padding-left: 0;
+padding-left: 0;
 }
 
 
-  /* MAIN HEADER END */
+/* MAIN HEADER END */
   
 
   
-  /* CATEGORIES LIST */
-  .box{
-      height:200px;
-      text-transform: uppercase;
-      font-size:2.0rem;
-    }
-  .mens{
-    flex-basis:49%;
-    border-bottom:8px solid white;
-   border-right:8px solid white;
-  }
-  .womens{
-    flex-basis:49%;
-    border-top-width: 0px;
-  }
-  .bags{
-    flex-basis:24%;
-    border-right: 8px solid white;
-    border-top-width: 0px;
-    
-  }
-  .sale{
-    flex-basis:24%;
-    border-right: 8px solid white;
-    border-top-width: 0px;
-    
-  }
-  .trends{
-    flex-basis:24%;
-    border-right:8px solid white;
-  }
-  .glasses{
-    flex-basis:24%;
-  }
-    .spring{
-      font-size:3rem;
-    }
-  /* CATEGORIES LIST END */
+/* CATEGORIES LIST */
+.box{
+height:200px;
+text-transform: uppercase;
+font-size:2.0rem;
+}
+.mens{
+flex-basis:49%;
+border-bottom:8px solid white;
+border-right:8px solid white;
+}
+.womens{
+flex-basis:49%;
+border-top-width: 0px;
+}
+.bags{
+flex-basis:24%;
+border-right: 8px solid white;
+border-top-width: 0px;
+}
+.sale{
+flex-basis:24%;
+border-right: 8px solid white;
+border-top-width: 0px;
+}
+
+.trends{
+flex-basis:24%;
+border-right:8px solid white;
+}
+.glasses{
+flex-basis:24%;
+}
+.spring{
+font-size:3rem;
+}
+/* CATEGORIES LIST END */
   
-  /* CAROUSEL  */
+/* CAROUSEL  */
   
-  .carousel-cell{
-    width:50%;
-  }
-  /* CAROUSEL END */
+.carousel-cell{
+width:50%;
+}
+/* CAROUSEL END */
   
-  /* FOOTER */
+/* FOOTER */
   
-  footer{
-    display:flex;
-    justify-content:space-between;
-    flex-direction:row;
-    padding-left:20px;
-    padding-bottom:20px;
-    font-size:16px;
-    }
+footer{
+display:flex;
+justify-content:space-between;
+flex-direction:row;
+padding-left:20px;
+padding-bottom:20px;
+font-size:16px;
+}
   
-  .contact-info{
-    text-align:left;
-    font-size: 14px;
-    padding-left: 10px;
-    padding-bottom: 0px;
-    padding-top:20px;
-    line-height: 2rem;
-    }
+.contact-info{
+text-align:left;
+font-size: 14px;
+padding-left: 10px;
+padding-bottom: 0px;
+padding-top:20px;
+line-height: 2rem;
+}
   
 .social-list{
-  padding-right:0px;
-  text-align: left;
+padding-right:0px;
+text-align: left;
 }
 
-  .social-icons{
-    display:flex;
-    flex-direction:column;
-    padding-top: 20px;
-    padding-right: 50px;
-    }
-  .social-text{
-    visibility: visible;
-    font-family:"raleway", serif;
-    color:white;
-    font-weight:lighter;
-    padding-left:2rem;
-    text-decoration:none;
-    text-align: right;
-    padding-left:0px;
-  }
+.social-icons{
+display:flex;
+flex-direction:column;
+padding-top: 20px;
+padding-right: 50px;
+}
+.social-text{
+visibility: visible;
+font-family:"raleway", serif;
+color:white;
+font-weight:lighter;
+padding-left:2rem;
+text-decoration:none;
+text-align: right;
+padding-left:0px;
+}
   
   
-  .social-icons a:hover{
-    color:#b64036;
-    }
+.social-icons a:hover{
+color:#b64036;
+}
 .number-email{
-  padding-top: 20px;
-  padding-bottom: 20px;
+padding-top: 20px;
+padding-bottom: 20px;
 }
 
 
 .fa-instagram{
-  padding-left:0;
+padding-left:0;
 }
 /* FOOTER END */
 
 
-@media screen and (min-width : 1024px){
+@media screen and (min-width : 1240px){
 
 
 
 /* MAIN HEADER */
 .header-container{
-    padding-top: 0px;
-    height: 90px;
-  }
-
-.logo{
-  padding-top:10px;
+padding-top: 0px;
+height: 90px;
 }
 
-  .nav-bar{
-    order: 2;
-    flex: 1 1 70%;
-    
-    }
+.logo{
+padding-top:10px;
+}
+
+.nav-bar{
+order: 2;
+flex: 1 1 70%;
+}
+
   
-  .nav-list {
-    display:flex;
-    justify-content:space-around;
-    width:370px;
-    margin:0 auto;
-    padding:.8rem 0rem;
-    }
+.nav-list{
+display:flex;
+justify-content:space-around;
+width:370px;
+margin:0 auto;
+padding:.8rem 0rem;
+}
     
-  .nav-bar a {
-    display:inline-block;
-    justify-content: center;
-    color:#e2574c;
-    font-size:0.9rem;
-    text-decoration: none;
-    text-transform:uppercase;
-    font-family:'Raleway', serif;
-    font-weight:bold;
-   }
+.nav-bar a {
+display:inline-block;
+justify-content: center;
+color:#e2574c;
+font-size:0.9rem;
+text-decoration: none;
+text-transform:uppercase;
+font-family:'Raleway', serif;
+font-weight:bold;
+}
 /* MAIN HEADER END */
 
-   /* HAND CRAFTED SECTION */
+/* HAND CRAFTED SECTION */
 .header-info{
-  padding-left: 100px;
-  padding-right: 100px;
+padding-left: 100px;
+padding-right: 100px;
 }
 
 /* HERO IMAGE */
 .new-collection{
-  font-size:2rem;
+font-size:2rem;
 }
 
 .spring{
-  font-size:3rem;
+font-size:3rem;
 }
 /* HERO IMAGE END */
 
 /* CATEGORIES */
 .box{
-  height:15rem;
+height:15rem;
 }
 /* CATEGORIES END */
 
 /* CAROUSEL */
 .carousel-cell{
-  width:25%;
+width:25%;
 }
 /* CAROUSEL END */
 
 /* OCEAN IMAGE */
 .contact-info{
-  font-size:16px;
+font-size:16px;
 }
 
 .sign-up-info{
-  padding-left: 250px;
-  padding-right: 250px;
+padding-left: 250px;
+padding-right: 250px;
 }
 /* OCEAN IMAGE */
 
 /* FOOTER */
 .social-list{
-  padding-right:45px;
+padding-right:45px;
 }
 
 
 }}
 
-@media screen and (min-width : 1920px){
-  .box{
-    height:20rem;
-  }
-}
+
