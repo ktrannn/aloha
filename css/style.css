@@ -413,13 +413,13 @@ li {
 }
 
 .sign-up-title{
-padding-top:1rem;
-font-family:'Fairplay Display', serif;
-font-size:1.5rem;
-color:white;
-text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
-width:auto;
-font-style: italic;
+	padding-top:1rem;
+	font-family:'Fairplay Display', serif;
+	font-size:1.5rem;
+	color:white;
+	text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
+	width:auto;
+	font-style: italic;
 }
 
 .sign-up-info{
