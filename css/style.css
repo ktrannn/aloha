@@ -46,8 +46,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* END OF RESET */
-
 /* FONTS */
 @font-face {
 	font-family: 'Raleway';
@@ -136,9 +134,26 @@ table {
 	font-weight: normal;
 	font-style: italic;
 }
-/* END OF FONTS */
 
 /* MAIN HEADER */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	clip: auto !important;
+	display: block;
+	height: auto;
+	left: 5px;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+}
+
 .header-container{
 	display:flex;
 	flex-wrap:wrap;
@@ -178,7 +193,6 @@ table {
 	padding-left:60px;
 	padding-bottom: 10px;
 }
-/* MAIN HEADER END */
 
 /* NAV-BAR*/
 .nav-bar{
@@ -205,7 +219,6 @@ table {
 	font-family:'Raleway', serif;
 	font-weight:bold;
 }
-/* NAV END  */
 
 /* HERO IMAGE BANNER SECTION */
 .new-collection {
@@ -236,10 +249,8 @@ table {
 	text-shadow: 1rem 1rem 2rem rgba(100, 100, 100, 0.8);
 	width:auto;
 }
-/* END OF HERO BANNER SECTION */
 
 /*  CATEGORIES LIST */
-
 .category-name:hover{
 	color:#b64036;
 }
@@ -249,8 +260,6 @@ table {
 	flex-wrap:wrap;
 	justify-content: center;       
 }
-
-
 
 .box{
 	display:flex;
@@ -263,7 +272,6 @@ table {
 	height: 12.5rem;
 	text-transform: uppercase;
 }
-
 
 .mens{
 	background:
@@ -324,10 +332,7 @@ table {
 	flex-basis:100%;
 	border-top:8px solid white;
 }
-/* CATEGORIES LIST END */
-
 /* CAROUSEL */
- 
 li {
 	list-style-type: none;
 }
@@ -336,7 +341,6 @@ li {
 	font-family:'Raleway', serif; 
 	color:#969696;
 }
-
 
 .clothing-category{
 	font-family:'Raleway', serif;
@@ -362,7 +366,6 @@ li {
 .carousel-image{
 	padding-top:5rem;
 }
-
 
 /* HAND CRAFTED STYLES HEADER */
 
@@ -395,7 +398,6 @@ li {
 	padding-right: 20px;
 	line-height: 40px;
 }
-/* END OF HAND CRAFTED STYLES HEADER */
 
 /* OCEAN IMAGE SECTION */
 .ocean-image{
@@ -466,10 +468,6 @@ input[type="email"]{
 	font-size: 1.5rem;
 }
 
-/* END OF OCEAN SECTION */
-
-
-
 /* FOOTER */
 footer{
 	display:block;
@@ -528,256 +526,220 @@ footer{
 	text-decoration: none;
 }
 
-/* END OF FOOTER */
-
 @media screen and (min-width : 600px){
-/* MAIN HEADER */
-.header-container{
-	display:flex;
-	height:50px;
-}
- 
-.nav-list{
-	border-top:none;
-}
-    
-.header-container{
-	padding-top: 0px;
-	height: 90px;
-}
-  
-.logo{
-	padding-top:10px;
-}
-  
-.nav-bar{
-	order: 2;
-	flex: 1 1 70%;
-}
-    
-.nav-list {
-	display:flex;
-	justify-content:space-around;
-	width:370px;
-	margin:0 auto;
-	padding:.8rem 0rem;
-}
-      
-.nav-bar a {
-	display:inline-block;
-	justify-content: center;
-	color:#e2574c;
-	font-size:0.9rem;
-	text-decoration: none;
-	text-transform:uppercase;
-	font-family:'Raleway', serif;
-	font-weight:bold;
-}
 
-.shopping-cart {
-	display: flex;
-	align-self: flex-end;
-	order: 3;
-	height: 4rem;
-}
+	/* MAIN HEADER */
+	.header-container{
+		display:flex;
+		height:50px;
+	}
 
-.shopping-cart img{
-	padding-left: 0;
-}
+	.nav-list{
+		border-top:none;
+	}
+			
+	.header-container{
+		padding-top: 0px;
+		height: 90px;
+	}
+		
+	.logo{
+		padding-top:10px;
+	}
+		
+	.nav-bar{
+		order: 2;
+		flex: 1 1 70%;
+	}
+			
+	.nav-list {
+		display:flex;
+		justify-content:space-around;
+		width:370px;
+		margin:0 auto;
+		padding:.8rem 0rem;
+	}
+				
+	.nav-bar a {
+		display:inline-block;
+		justify-content: center;
+		color:#e2574c;
+		font-size:0.9rem;
+		text-decoration: none;
+		text-transform:uppercase;
+		font-family:'Raleway', serif;
+		font-weight:bold;
+	}
 
+	.shopping-cart {
+		display: flex;
+		align-self: flex-end;
+		order: 3;
+		height: 4rem;
+	}
 
-/* MAIN HEADER END */
-  
+	.shopping-cart img{
+		padding-left: 0;
+	}
 
-  
-/* CATEGORIES LIST */
-.box{
-	height:200px;
-	text-transform: uppercase;
-	font-size:2.0rem;
-}
-.mens{
-	flex-basis:49%;
-	border-bottom:8px solid white;
-	border-right:8px solid white;
-}
-.womens{
-	flex-basis:49%;
-	border-top-width: 0px;
-}
-.bags{
-	flex-basis:24%;
-	border-right: 8px solid white;
-	border-top-width: 0px;
-}
-.sale{
-	flex-basis:24%;
-	border-right: 8px solid white;
-	border-top-width: 0px;
-}
+	/* CATEGORIES LIST */
+	.box{
+		height:200px;
+		text-transform: uppercase;
+		font-size:2.0rem;
+	}
+	.mens{
+		flex-basis:49%;
+		border-bottom:8px solid white;
+		border-right:8px solid white;
+	}
+	.womens{
+		flex-basis:49%;
+		border-top-width: 0px;
+	}
+	.bags{
+		flex-basis:24%;
+		border-right: 8px solid white;
+		border-top-width: 0px;
+	}
+	.sale{
+		flex-basis:24%;
+		border-right: 8px solid white;
+		border-top-width: 0px;
+	}
 
-.trends{
-	flex-basis:24%;
-	border-right:8px solid white;
-}
-.glasses{
-	flex-basis:24%;
-}
-.spring{
-	font-size:3rem;
-}
-/* CATEGORIES LIST END */
-  
-/* CAROUSEL  */
-  
-.carousel-cell{
-	width:50%;
-}
-/* CAROUSEL END */
-  
-/* FOOTER */
-  
-footer{
-	display:flex;
-	justify-content:space-between;
-	flex-direction:row;
-	padding-left:20px;
-	padding-bottom:20px;
-	font-size:16px;
-}
-  
-.contact-info{
-	text-align:left;
-	font-size: 14px;
-	padding-left: 10px;
-	padding-bottom: 0px;
-	padding-top:20px;
-	line-height: 2rem;
-}
-  
-.social-list{
-	padding-right:0px;
-	text-align: left;
-}
+	.trends{
+		flex-basis:24%;
+		border-right:8px solid white;
+	}
+	.glasses{
+		flex-basis:24%;
+	}
+	.spring{
+		font-size:3rem;
+	}
+	/* CAROUSEL  */ 
+	.carousel-cell{
+		width:50%;
+	}
 
-.social-icons{
-	display:flex;
-	flex-direction:column;
-	padding-top: 20px;
-	padding-right: 50px;
+	/* FOOTER */ 
+	footer{
+		display:flex;
+		justify-content:space-between;
+		flex-direction:row;
+		padding-left:20px;
+		padding-bottom:20px;
+		font-size:16px;
+	} 
+	.contact-info{
+		text-align:left;
+		font-size: 14px;
+		padding-left: 10px;
+		padding-bottom: 0px;
+		padding-top:20px;
+		line-height: 2rem;
+	} 
+	.social-list{
+		padding-right:0px;
+		text-align: left;
+	}
+	.social-icons{
+		display:flex;
+		flex-direction:column;
+		padding-top: 20px;
+		padding-right: 50px;
+	}
+	.social-text{
+		visibility: visible;
+		font-family:"raleway", serif;
+		color:white;
+		font-weight:lighter;
+		padding-left:2rem;
+		text-decoration:none;
+		text-align: right;
+		padding-left:0px;
+	}
+	.social-icons a:hover{
+		color:#b64036;
+	}
+	.number-email{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.fa-instagram{
+		padding-left:0;
+	}
 }
-.social-text{
-	visibility: visible;
-	font-family:"raleway", serif;
-	color:white;
-	font-weight:lighter;
-	padding-left:2rem;
-	text-decoration:none;
-	text-align: right;
-	padding-left:0px;
-}
-  
-  
-.social-icons a:hover{
-	color:#b64036;
-}
-.number-email{
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-
-.fa-instagram{
-	padding-left:0;
-}
-/* FOOTER END */
-
-
 @media screen and (min-width : 1240px){
 
+	/* MAIN HEADER */
+	.header-container{
+		padding-top: 0px;
+		height: 90px;
+	}
+	.logo{
+		padding-top:10px;
+	}
+	.nav-bar{
+		order: 2;
+		flex: 1 1 70%;
+	} 
+	.nav-list{
+		display:flex;
+		justify-content:space-around;
+		width:370px;
+		margin:0 auto;
+		padding:.8rem 0rem;
+	} 
+	.nav-bar a {
+		display:inline-block;
+		justify-content: center;
+		color:#e2574c;
+		font-size:0.9rem;
+		text-decoration: none;
+		text-transform:uppercase;
+		font-family:'Raleway', serif;
+		font-weight:bold;
+	}
+	/* HAND CRAFTED SECTION */
+	.header-info{
+		padding-left: 100px;
+		padding-right: 100px;
+	}
 
+	/* HERO IMAGE */
+	.new-collection{
+		font-size:2rem;
+	}
 
-/* MAIN HEADER */
-.header-container{
-	padding-top: 0px;
-	height: 90px;
+	.spring{
+		font-size:3rem;
+	}
+
+	/* CATEGORIES */
+	.box{
+		height:15rem;
+	}
+
+	/* CAROUSEL */
+	.carousel-cell{
+		width:25%;
+	}
+
+	/* OCEAN IMAGE */
+	.contact-info{
+		font-size:16px;
+	}
+
+	.sign-up-info{
+		padding-left: 250px;
+		padding-right: 250px;
+	}
+	/* FOOTER */
+	.social-list{
+		padding-right:45px;
+	}
 }
-
-.logo{
-	padding-top:10px;
-}
-
-.nav-bar{
-	order: 2;
-	flex: 1 1 70%;
-}
-
-  
-.nav-list{
-	display:flex;
-	justify-content:space-around;
-	width:370px;
-	margin:0 auto;
-	padding:.8rem 0rem;
-}
-    
-.nav-bar a {
-	display:inline-block;
-	justify-content: center;
-	color:#e2574c;
-	font-size:0.9rem;
-	text-decoration: none;
-	text-transform:uppercase;
-	font-family:'Raleway', serif;
-	font-weight:bold;
-}
-/* MAIN HEADER END */
-
-/* HAND CRAFTED SECTION */
-.header-info{
-	padding-left: 100px;
-	padding-right: 100px;
-}
-
-/* HERO IMAGE */
-.new-collection{
-	font-size:2rem;
-}
-
-.spring{
-	font-size:3rem;
-}
-/* HERO IMAGE END */
-
-/* CATEGORIES */
-.box{
-	height:15rem;
-}
-/* CATEGORIES END */
-
-/* CAROUSEL */
-.carousel-cell{
-	width:25%;
-}
-/* CAROUSEL END */
-
-/* OCEAN IMAGE */
-.contact-info{
-	font-size:16px;
-}
-
-.sign-up-info{
-	padding-left: 250px;
-	padding-right: 250px;
-}
-/* OCEAN IMAGE */
-
-/* FOOTER */
-.social-list{
-	padding-right:45px;
-}
-
-
-}}
 
 
