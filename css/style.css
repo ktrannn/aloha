@@ -458,14 +458,14 @@ input[type="email"]{
 
 .subscribe-button{
 	padding-right: 10px;
-	padding-bottom: 10px;
+	width:120px;
 	height:2.5rem;
 	margin-left: -125px;
 	background-color: #e2574c;
 	border-radius: 50em;
 	color: #ffffff;
 	border: 0;
-	font-size: 1.5rem;
+	font-size: 1rem;
 }
 
 /* FOOTER */
@@ -663,7 +663,7 @@ footer{
 	.social-icons a:hover{
 		color:#b64036;
 	}
-	.number-email{
+	.contact-number{
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
