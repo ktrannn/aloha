@@ -5,6 +5,7 @@ This project focused on building a responsive demo homepage for a client called 
 ## Things I have learnt
 
 Things that I have learnt from building this demo homepage:
+
 Creating a mobile-first css framework
 Using flex css to organize the layout of the homepage
 Not relying on a third-party css framework
