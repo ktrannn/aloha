@@ -642,6 +642,8 @@ footer{
 		padding-bottom: 0px;
 		padding-top:20px;
 		line-height: 2rem;
+		margin-right:0;
+		margin-left:0;
 	} 
 	.social-list{
 		padding-right:0px;
