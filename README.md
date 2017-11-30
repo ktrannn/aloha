@@ -27,3 +27,4 @@ These are the screenshot of what the homepage demo would like in the different s
   - Tablet (Between 600px and 1240px)
   - Desktop (above 1240px)
 
+![Screen Shot](aloha-mobile.png?raw=true "Aloha Mobile")
