@@ -27,6 +27,9 @@ These are the screenshot of what the homepage demo would like in the different s
   - Tablet (Between 600px and 1240px)
   - Desktop (above 1240px)
 
+[Imgur](https://i.imgur.com/Kx2xAGU.png width="100")
+
+
 ![Screen Shot](aloha-mobile.png?raw=true "Aloha Mobile")
 ![Screen Shot](aloha-tablet.png?raw=true "Aloha Mobile")
 ![Screen Shot](aloha-desktop.png?raw=true "Aloha Mobile")
