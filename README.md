@@ -28,8 +28,6 @@ These are the screenshot of what the homepage demo would like in the different s
   - Desktop (above 1240px)
 
 <img src="https://i.imgur.com/Kx2xAGU.png" width="100">
+<img src="https://imgur.com/N1xzh35" width="300">
+<img src="" width="500">
 
-
-![Screen Shot](aloha-mobile.png?raw=true "Aloha Mobile")
-![Screen Shot](aloha-tablet.png?raw=true "Aloha Mobile")
-![Screen Shot](aloha-desktop.png?raw=true "Aloha Mobile")
