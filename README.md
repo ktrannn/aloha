@@ -27,6 +27,6 @@ These are the screenshots of what the homepage demo would like in the different 
   - Tablet (Between 600px and 1240px)
   - Desktop (above 1240px)
 
-<img src="https://i.imgur.com/Kx2xAGU.png" width="100"> <img src="https://i.imgur.com/N1xzh35.png" width="300"> <img src="https://i.imgur.com/CtvNAY6.png" width="400">
+<img src="https://i.imgur.com/Kx2xAGU.png" width="100" height="200">   <img src="https://i.imgur.com/N1xzh35.png" width="300" height="200">   <img src="https://i.imgur.com/CtvNAY6.png" width="400" height="200">
 
 
