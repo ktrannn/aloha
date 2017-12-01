@@ -29,5 +29,5 @@ These are the screenshot of what the homepage demo would like in the different s
 
 <img src="https://i.imgur.com/Kx2xAGU.png" width="100">
 <img src="https://i.imgur.com/N1xzh35.png" width="300">
-<img src="" width="500">
+<img src="https://i.imgur.com/CtvNAY6.png" width="500">
 
