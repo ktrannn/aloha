@@ -170,7 +170,7 @@ table {
 .logo{
 	display:flex; 
 	justify-content: flex-start;
-	flex: 1 1 15%;
+	flex: 1 1 13%;
 	order: 1;
 }
 
@@ -408,7 +408,7 @@ li {
 	width: 100%;
 	height: auto;
 	background:
-	linear-gradient( to bottom, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.05) 100% ),
+	linear-gradient( to bottom, rgba(0,0,0,0.30) 0%, rgba(0,0,0,0.30) 100% ),
 	url("../assets/images/wave-bkgd.jpg");
 	background-position: bottom;
 	background-repeat: no-repeat;
@@ -668,10 +668,10 @@ footer{
 	.social-icons a:hover{
 		color:#b64036;
 	}
-	.contact-number{
+	/* .contact-number{
 		padding-top: 20px;
 		padding-bottom: 20px;
-	}
+	} */
 	.fa-instagram{
 		padding-left:0;
 	}
